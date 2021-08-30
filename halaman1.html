@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 1</title>
+
+    <style> 
+        .shadowbox {
+            width: 15em; 
+            border: 1px solid #333;
+            box-shadow: 8px 8px 5px #444;
+            padding: 8px 12px;
+            background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+        }
+        .phone {
+            font-weight: bold;
+        }
+        .contoh1 {
+            color:aqua;
+        }
+        .contoh2 {
+            color:blueviolet;
+        }
+        .contoh3 {
+            color: cadetblue;
+        }
+        .contoh4 {
+            color:forestgreen;
+        }
+        .contoh5 {
+            color: darkslateblue;
+        }
+        .contoh6 {
+            color: darkturquoise;
+        }
+    </style>
+<!-------------------------------------- INI ADALAH STYLE DARI KONTEN DIV DAN SPAN -------------------------------------->
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>
+        Selamat Datang di kuliah pemrograman web 1
+    </p>
+    <br> <!-- ini untuk membuat garis baru -->
+    <p>
+        ini adalah paragraf
+    </p>
+
+<!------------------------------------ LATIHAN MEMBUAT TULISAN MENJADI BERMACAM - MACAM -------------------------------->
+
+    <hr> <!-- ini untuk membuat garis -->
+    
+    <p>
+        <b>Membuat tulisan menjadi beraneka macam : </b>
+    </p>
+    <p>
+        <strong>Pengumuman</strong>, pemrograman web 1, senin 22 juni 2021 <em>ditiadakan!</em>
+    </p>
+    <p>
+        <p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p>
+    </p>
+
+<!---------------------------------------- LATIHAN MEMBUAT CITATION PADA TULISAN  --------------------------------------->
+
+<!-- Selain sebuah atribut, <cite> juga merupakan sebuah elemen yang digunakan untuk sebuah rujukan pada sebuah dokumen, contohnya sebuah buku, majalah, artikel dan lainnya. -->
+    <P>
+        Informasi selengkapnya bisa Anda dapatkan di <cite><a href="https://dicoding.com">dicoding.com</a></cite>.
+    </P>
+
+<!------------------------------------- LATIHAN MEMBUAT DEFINING TERMS PADA TULISAN ------------------------------------->
+
+<!-- Elemen <dfn> digunakan ketika mendefinisikan sebuah istilah (term). Elemen ini harus terletak pada elemen lain yang menaunginya. Contohnya pada sebuah elemen <p> atau elemen <section>. Berikut contoh penggunaannya: -->
+    <P>
+        <dfn>Website</dfn> merupakan halaman yang menampilkan informasi melalui teks atau gambar. Website dapat diakses melalui internet dengan menggunakan browser.
+    </P>
+    
+<!---------------------------------- LATIHAN MEMBUAT SUBSCRIPT dan SUPERSCRIPT PADA TULISAN ----------------------------->
+
+<!-- Subscript <sub> dan superscript <sup> merupakan elemen yang dapat membuat teks yang ditampilkan nampak kecil, dengan posisi di bawah (sub) atau di atas (sup) dari teks biasanya. Elemen ini digunakan untuk menunjukan sebuah rumus kimia ataupun matematika. -->
+    <P>
+        Sukrosa merupakan suatu disakarida yang dibentuk dari monomer-monomernya yang berupa unit glukosa dan fruktosa,dengan rumus molekul C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>.
+    </P>
+    <P>
+        Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup>
+    </P>
+
+<!-------------------------------------- LATIHAN MEMBUAT HIGHTLIGHTED TEXT PADA TULISAN --------------------------------->
+
+<!-- Untuk menandai atau menyorot sebuah teks kita bisa menggunakan elemen <mark>. Elemen ini digunakan ketika terdapat sebuah teks yang memiliki peran penting, biasanya teks tersebut merupakan bagian yang paling relevan atau penting dalam sebuah konteks kalimat. -->
+    <P>
+        Saya Moga purnama Ashari, sedang kuliah <mark>jurusan informatika Universitas Persada Indonesia Y.A.I. </mark> 
+    </P>
+
+<!--------------------------------- LATIHAN MEMBUAT LIST SECARA BERURUTAN MENGGUNAKAN ANGKA ----------------------------->
+
+    <hr>
+    <p>
+        <b> Membuat list secara berurutan menggunakan angka : </b> 
+    </p>
+    <h2> To Do List </h2>
+    <ol start="9" reversed> <!-- ini untuk membuat list secara berurutan menggunakan angka -->
+        <li>Bangun</li>
+        <li>Sholat</li>
+        <li>Olahraga</li>
+            <ul> <!-- ini untuk membuat list tidak berurutan menggunakan bulat kosong -->
+                <li>Pemanasan</li>
+                <li>Jogging</li>
+                <li>Skipping</li>
+                <li>Pull Up</li>
+            </ul>
+        <li>Sarapan</li>
+            <ul>
+                <li> Nasi Goreng </li>
+                <li> Telor Ceplok </li>
+                <li> Bubur Ayam </li>
+            </ul>
+        <li>Mandi</li>
+        <li>Belajar</li>
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+            </ul>
+    </ol>
+ 
+<!-- LATIHAN MEMBUAT LIST SECARA BERURUTAN MENGGUNAKAN HURUF DAN MEMBUAT LIST SECARA TIDAK BERURUT MENGGUNAKAN SQUARE --->
+
+    <hr>
+    <p>
+       <b> Membuat list secara berurutan menggunakan huruf dan membuat list secara tidak berurut menggunakan square : </b>
+    </p>
+    <ol type="A"> <!-- ini untuk membuat list secara berurutan menggunakan huruf-->
+        <li>Bangun</li>
+        <li>Sholat</li>
+        <li>Olahraga</li>
+            <ul type="square"> <!-- ini untuk membuat list tidak berurutan menggunakan kotak -->
+                <li>Pemanasan</li>
+                <li>Jogging</li>
+                <li>Skipping</li>
+                <li>Pull Up</li>
+            </ul>
+        <li>Sarapan</li>
+        <li>Mandi</li>
+        <li>Belajar</li>
+    </ol>
+    
+<!-- LATIHAN MEMBUAT LIST SECARA BERURUTAN MENGGUNAKAN ROMAWI DAN MEMBUAT LIST SECARA TIDAK BERURUT MENGGUNAKAN DISC --->
+
+    <hr>
+    <p>
+       <b> Membuat list secara berurutan menggunakan romawi dan membuat list secara tidak berurut menggunakan disc : </b>
+    </p>
+    <ol type="I"> <!-- ini untuk membuat list secara berurutan menggunakan romawi-->
+        <li>Bangun</li>
+        <li>Sholat</li>
+        <li>Olahraga</li>
+            <ul type="disc"> <!-- ini untuk membuat list tidak berurutan menggunakan bulat penuh -->
+                <li>Pemanasan</li>
+                <li>Jogging</li>
+                <li>Skipping</li>
+                <li>Pull Up</li>
+            </ul>
+        <li>Sarapan</li>
+        <li>Mandi</li>
+        <li>Belajar</li>
+    </ol>
+   
+<!------------------------------------- LATIHAN MEMBUAT DAFTAR DEFINI DENGAN DL DT DD ----------------------------------->
+
+    <hr>
+    <p>
+       <b> Membuat daftar definisi dan membuat deskripsi dari definisi : </b>
+    </p>
+    <dl> <!-- ini untuk membuat daftar definisi -->
+        <dt><strong> HTML </strong></dt> <!-- ini untuk membuat definisi / istilah -->
+        <dd><em>Hypertext Markup Language</em></dd> <!-- ini untuk membuat deskripsi dari definisi -->
+        <dt><strong>CSS</strong></dt>
+        <dd><em>Cascading Style Sheet</em></dd>
+    </dl>
+  
+<!---------------------------------------------------- LATIHAN MEMBUAT LINK --------------------------------------------> 
+
+    <hr>
+    <!-- Membuat eksternal link : mengunjungi halaman website lain -->
+    <p>
+       <b> Membuat Eksternal Link : </b>
+    </p>
+    <p>
+        klik <a href="https://twitter.com/mogapurnamaa">disini</a> untuk mengetahui informasi lebih lanjut. <!-- mengunjungi website lain dengan menimpa halaman yang sedang digunakan -->
+    </p>
+    <p>
+        klik <a target="_blank" href="https://twitter.com/mogapurnamaa">disini</a> untuk mengetahui informasi lebih lanjut. <!-- mengunjungi website lain dengan mambuat tab baru -->
+    </p>
+
+<!---------------------------------------------- LATIHAN MEMBUAT INTERNAL LINK ------------------------------------------>
+
+    <hr>
+    <!-- Membuat internal link : mengunjungi halaman website sendiri -->
+    <p>
+        <b>Membuat Internal Link :</b>
+    </p>
+    <ul>
+        <li>Silakan berkunjung <a href="halaman2.html"> kesini </a></li> <!-- Mengunjungi halaman 2 website sendiri-->
+    </ul>
+
+<!---------------------------------------------- LATIHAN MEMBUAT RELATIVE LINK ------------------------------------------>
+
+    <hr>
+    <!-- Membuat relative Link : mengunjungi halaman dari folder yang berbeda -->
+    <p>
+       <b> Membuat Relative Link : </b>
+    </p>
+    <ul>
+        <li>Silakan berkunjung <a href="admin/halaman2.html"> kesini </a></li> <!-- Mengunjungi halaman 2 website sendiri dari 1 folder yg berbeda -->
+        <li>Silakan berkunjung <a href="../admin/halaman2.html"> kesini </a></li> <!-- Mengunjungi halaman 2 website sendiri dari beberapa folder yg berbeda --></li>
+    </ul>
+    <p>
+       <b><u> Penjelasannya berada di halaman 2</u></b>
+    </p>
+
+<!-------------------------------------------------- LATIHAN MEMBUAT PAGE LINK ------------------------------------------>
+
+    <hr>
+    <!-- Membuat page link : mengunjungi ke bagian halaman tertentu dari sebuah halaman website-->
+    <p>
+       <b> Mebuat Page Link :</b>
+    </p>
+    <ul>
+        <li> <a href="halaman2.html"> Pergi ke halaman 2</a></li>
+        <li> <a href="halaman3.html#bagian1"> Pergi ke halaman 3</a></li> <!-- ini untuk membuka ke bagian tertentu dari sebuah halaman webiste-->
+    </ul>
+    <p>
+        <b><u>Penjelasannya berada di halaman 3</u></b>
+    </p>
+
+<!----------------------------------------- LATIHAN MENAMBAHKAN GAMBAR PADA WEBSITE ------------------------------------->
+
+    <hr>
+    <p>
+      <b>  Menambahkan gambar pada website :</b>
+    </p>
+    <img src="images/logo1.png" alt="Logo Lupanalogx"> <!-- apabila gambar tidak muncul, maka muncul tulisan -->
+    <p>
+       <b> Menggunakan attribute title : </b>
+    </p>
+    <img src="images/logo1.png" title="Logo Lupanalogx"> <!-- apabila kursor diarahkan ke gambar maka muncul tulisan -->
+    <p>
+        <b>Menggunakan attribute width px & % :</b>
+    </p> 
+    <img src="images/logo1.png" title="Logo Lupanalogx" width="500"> <!-- cukup menggunakan 1 attribute saja, height nya akan mengikuti dari width nya -->
+    <img src="images/logo1.png" title="Logo Lupanalogx" width="50%"> <!-- akan selalu mengikuti responsive dari sebuah halaman webiste nya --> 
+    <p>
+        <b>Membuat link dengan gambar :</b>
+    </p>
+    <a target="_blank" href="https://www.freelogodesign.org/"><img src="images/logo1.png" alt="Lupanalogx" title="Logo Lupanalogx"></a> <!-- membuat link dengan gambar, apabila gambar diklik maka akan mengunjungi sebuah tautan -->
+   
+<!-------------------------------------------- LATIHAN MEMBUAT TABLE SIMPLE --------------------------------------------->
+
+    <hr>
+    <p>
+        <b>Membuat tabel simple :</b>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="5"> <!-- border untuk membuat garis, cellspacing untuk membuat jarak pada garis, cellpadding untuk membuat jarak pada tulisan -->
+        <tr> <!-- ini table row, untuk membuat garis -->
+            <td>baris 1, kolom 1</td> <!-- ini table data, untuk memasukan data ke urutan samping -->
+            <td>baris 1, kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 2, kolom 1</td>
+            <td>baris 2, kolom 2</td>
+        </tr>
+    </table>
+
+<!--------------------------------------------- LATIHAN MEMBUAT TABLE COMPLEX ------------------------------------------->
+
+    <p>
+       <b> Membuat tabel complex :</b>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead> <!-- untuk membuat bagian header pada table -->
+            <tr>
+                <th></th> <!-- ini untuk membuat header yang akan diberi cetak tebal -->
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+        <tbody> <!-- untuk membuat isi bagian body pada table-->
+            <tr>
+                <th>Baris 1</th>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <th>Baris 2</th>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!------------------------------ LATIHAN MEMBUAT TABLE COMPLEX MENGGUNAKAN COLSPAN DAN ROWSPAN  ------------------------->
+
+    <p>
+        <b> Membuat tabel complex menggunakan colspan dan rowspan :</b>
+     </p>
+     <p>
+         <b> Sebelum menggunakan colspan dan rowspan </b>
+     </p>
+     <table border="1" cellspacing="0" cellpadding="5">
+         <tr>
+             <td>baris 1, kolom 1</td>
+             <td>baris 1, kolom 2</td>
+             <td>baris 1, kolom 3</td>
+         </tr>
+         <tr>
+            <td>baris 2, kolom 1</td>
+            <td>baris 2, kolom 2</td>
+            <td>baris 2, kolom 3</td>
+        </tr>
+        <tr>
+            <td>baris 3, kolom 1</td>
+            <td>baris 3, kolom 2</td>
+            <td>baris 3, kolom 3</td>
+        </tr>
+     </table>
+ 
+<!---------------------------------- LATIHAN MEMBUAT TABLE COMPLEX SETELAH MENGGUNAKAN COLSPAN -------------------------->
+
+     <p>
+        <b> Sesudah menggunakan colspan </b>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>baris 1, kolom 1</td>
+            <td colspan="2"> pergabungan kolom 2 3, di baris 1</td>
+        </tr>
+        <tr>
+           <td>baris 2, kolom 1</td>
+           <td>baris 2, kolom 2</td>
+           <td>baris 2, kolom 3</td>
+       </tr>
+       <tr>
+           <td>baris 3, kolom 1</td>
+           <td>baris 3, kolom 2</td>
+           <td>baris 3, kolom 3</td>
+       </tr>
+    </table>
+
+<!------------------------ LATIHAN MEMBUAT TABLE COMPLEX SETELAH MENGGUNAKAN COLSPAN DAN ROWSPAN ------------------------>
+
+    <p>
+        <b> Sesudah menggunakan rowspan dan colspan </b>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td rowspan="3"> pergabungan baris 1 2 3, di kolom 1 </td> <!-- ini untuk menggabung kan beberapa baris menjadi kolom -->
+            <td colspan="2"> pergabungan kolom 2 3, di baris 1 </td> <!-- ini untuk menggabungkan kolom menjadi baris -->
+        </tr>
+        <tr>
+           <td>baris 2, kolom 2</td>
+           <td>baris 2, kolom 3</td>
+       </tr>
+       <tr>
+           <td>baris 3, kolom 2</td>
+           <td>baris 3, kolom 3</td>
+       </tr>
+    </table>
+    <br>
+
+<!----------------------------------------------------- LATIHAN MEMBUAT FORM -------------------------------------------->
+
+    <hr>
+    <p>
+        <b>Membuat Form : </b> 
+    </p>
+    <!-- Elemen yang berada didalam form yaitu : input, textarea, select, button, label -->
+
+    <!-- input untuk mengisikan sesuatu ke dalam box yang telah tersedia -->
+    <!-- textarea untuk memberikan pesan atau testimoni -->
+    <!-- select untuk membuat combobox -->
+    <!-- button untuk membuat tombol yang digunakan mengirimkan data yang telah diisi -->
+    <!-- label untuk menandakan sebuah elemen input -->
+
+    <!-- Elemen yang berada didalam input : text, password, radio, checkbox -->
+
+    <!-- text untuk memasukkan username -->
+    <!-- password untuk memasukkan password -->
+    <!-- radio untuk memilih list salah satu dengan bentuk bulat -->
+    <!-- checkbox untuk memmilih list bisa lebih dari satu dengan bentuk kotak dan apabila di klik akan muncul tanda ceklis -->
+
+    <!-- Elemen yang berada didalam button : submit, reset, button -->
+    <form>
+         <label for="username">username : </label><input type="text" id="username"> <!-- for dan id harus sama isinya -->
+            <br> 
+         <label for="password">password : </label><input type="password" id="password"> 
+             <br>
+         <input type="radio" id="pria" name="jeniskelamin"><label for="pria"> Pria </label>
+         <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita"> Wanita </label>
+            <br>
+         <p>
+             Hobi :
+         </p>
+         <!-- gunakan checkbox apabila ingin memilih lebih dari satu -->
+         <input type="checkbox" id="futsal"><label for="futsal">Futsal</label> <!-- for dan id harus sama isinya -->
+         <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+         <input type="checkbox" id="ngegame"><label for="ngegame">ngegame</label>
+             <br>
+             <br>
+         <label for="tempat">Tempat tinggal :</label> <!-- for dan id harus sama isinya -->   
+         <select name="namakota" id="tempat"> <!-- ini untuk membuat combobox -->
+             <option value="">Jakarta</option>
+             <option value="">Bekasi</option>
+             <option value="">Bandung</option>
+         </select>  
+             <br> 
+             <br> 
+         <textarea name="comment" id="testimoni" cols="30" rows="10">Testimoni</textarea>
+         <p>
+            <button type="submit">Kirim!</button>
+            <button type="reset">Batal</button>  
+         </p>
+    </form>
+    
+    <!---------------------------------------- LATIHAN MEMBUAT FORM MENGGUNAKAN TABLE ---------------------------------->
+
+    <p>
+        <b>Latihan membuat form menggunakan table untuk merapihkan tampilan Form : </b>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <form action="">
+            <thead> <!-- untuk membuat bagian header pada table -->
+                <tr>
+                    <th colspan="2"> Silakan isi Form Anda : </th>  <!-- ini untuk membuat header yang akan diberi cetak tebal -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="username">username :</label></td>
+                    <td><input type="text" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password :</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center" colspan="2">
+                        <label for="radio">Radio 1<input type="radio" id="radio" name="buatradio"></label>
+                        <label for="radio">Radio 2<input type="radio" id="radio" name="buatradio"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center" colspan="2">
+                        <label for="checkbox1">checkbox 1</label><input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">checkbox 2</label><input type="checkbox" id="checkbox1">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="combobox">Combo Box :</label></td>
+                    <td>
+                        <select name="option" id="combobox">
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="textarea">Textarea :</label></td>
+                    <td>
+                        <textarea name="comment" id="textarea" cols="20" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center" colspan="2"><button type="submit">button</button></td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+    
+    <!---------------------------- LATIHAN MEMBUAT FORM MENGGUNAKAN TABLE TANPA MENGGUNAKAN BORDER ---------------------->
+
+    <p>
+        <b>Tanpa menggunakan border pada table : </b>
+    </p>
+    <table>
+        <form action="">
+            <thead>
+                <tr>
+                    <th colspan="2"> Silakan isi Form Anda : </th>  <!-- ini untuk membuat header yang akan diberi cetak tebal -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="username">username :</label></td>
+                    <td><input type="text" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password :</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center" colspan="2">
+                        <label for="radio">Radio 1<input type="radio" id="radio" name="buatradio"></label>
+                        <label for="radio">Radio 2<input type="radio" id="radio" name="buatradio"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center" colspan="2">
+                        <label for="checkbox1">checkbox 1</label><input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">checkbox 2</label><input type="checkbox" id="checkbox1">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="combobox">Combo Box :</label></td>
+                    <td>
+                        <select name="option" id="combobox">
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="textarea">Textarea :</label></td>
+                    <td>
+                        <textarea name="comment" id="textarea" cols="20" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center" colspan="2"><button type="submit">button</button></td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+
+<!-------------------------------------------- LATIHAN MEMBUAT HEADER DAN FOOTER----------------------------------------->
+
+<!-- Elemen ini dapat kita gunakan untuk: 1. Sebuah header dan footer utama yang muncul pada awal dan akhir di sebuah halaman <body>. 2. Header digunakan sebagai pengantar atau pembuka konten dalam sebuah elemen <article> atau <section>.  3. Footer digunakan sebagai catatan kaki pada sebuah elemen <article> atau <section>.-->
+
+<!-- Selain itu, elemen <header> dan <footer> dapat digunakan pada sebuah elemen <article> atau <section>. Header biasanya menampung judul dan penulis, footer dapat menampung sebuah link untuk membagikan artikel pada sebuah sosial media. Perlu kita ketahui bahwa elemen <header> dan <footer> tidak boleh ditulis di dalam elemen <header> dan <footer> lainnya (bertumpuk/nested). -->   
+    <hr>
+    <P>
+        <b> Membuat Header dan Footer : </b>
+    </P> 
+    <article style="background-color: yellow;">
+        <header>
+            <h1> INI ADALAH JUDUL DARI HEADER DI DALAM ARTICLE </h1>
+        </header>
+        <p> KONTEN ARTICLE DIMULAI DARI SINI, MASIH BERADA DI DALAM ARTICLE DAN DI LUAR HEADER. <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur culpa quaerat porro sed sapiente deserunt eaque nesciunt quos quis aut delectus accusantium omnis id, deleniti beatae doloribus saepe similique? Expedita!
+         </p>
+        <footer>
+            <p> Ini adakah konten footer yang berada didalam article </p>
+            <ul>
+                <li>Twitter</li>
+                <li>Facebook</li>
+                <li>......</li>
+            </ul>
+        </footer>
+     </article>
+
+<!------------------------------------------------- LATIHAN MEMBUAT MAIN ------------------------------------------------>
+
+<!-- Element <main> digunakan untuk menampung/mewadahi konten utama (dominan) dalam <body>. Konten main dapat terdiri dari banyak section, ataupun artikel, atau konten apapun di dalam elemen main, selama termasuk konten utama yang dimiliki oleh website. -->
+     <hr>
+     <P>
+         <b> Cara membuat main : </b>
+     </P>
+     <header style="background-color: yellow;">
+        <p>
+            INI KONTEN HEADER DIATAS MAIN <!-- Konten header website -->
+        </p>
+    </header>
+    <main style="background-color: slategray;">
+        <section>
+            <article>
+                <h2> INI KONTEN ARTICLE BAGIAN 1 DI DALAM MAIN, SECTION </h2>
+                <p>  
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique unde necessitatibus quam impedit molestias blanditiis, quis magnam ducimus illo ullam optio perspiciatis quisquam, distinctio, voluptatem officiis! Animi sequi sit vero? 
+                </p> <!-- ini konten article di dalam section di dalam main -->
+            </article>
+        </section>
+        <article>
+            <H2> INI KONTEN ARTICLE BAGIAN 2 DI LUAR SECTION, MASIH DI DALAM MAIN </H2>
+            <p> 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ratione quia impedit, incidunt assumenda natus aliquid qui rem architecto dolorum voluptas optio velit ex quas magnam, adipisci exercitationem hic sunt. 
+            </p> <!-- ini konten article di luar section masih di dalam main -->
+        </article>
+    </main>
+    <footer style="background-color: violet;">
+        &copy; INI KONTEN FOOTER DI LUAR MAIN   <!-- Konten footer diluar main -->
+    </footer>
+    <br>
+
+<!------------------------------------------------ LATIHAN MEMBUAT ARTICLE ---------------------------------------------->
+
+<!-- Elemen <article> bertindak sebagai container untuk independen konten pada sebuah halaman, artinya konten utuh yang tidak terkait dengan konten lain. Bisa saja konten yang dimasud berupa artikel blog, komentar, forum post, dan konten lainnya.-->
+<!-- Jika sebuah halaman terdapat beberapa artikel, maka tiap artikel tersebut seharusnya berada pada elemen article-nya masing-masing.-->   
+<!-- Elemen <article> dapat berada pada elemen <article> lainnya (nested) selama artikel tersebut berkaitan dengan induk elemen <article> yang menampungnya.--> 
+    <hr>
+    <p>
+        <b> Latihan membuat Article : </b>
+    </p>
+    <article style="background-color: yellow;">
+        <h2> INI CONTOH KONTEN ARTICLE BAGIAN 1 </h2>
+        <img src="images/logo1.png" title="Logo Lupanalogx">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium dolorum facere magni accusamus! Quidem, facere aliquam iste minima, sapiente autem, quasi ab deleniti cum alias earum culpa consectetur architecto!
+        </p>
+    </article>
+    <article style="background-color: yellowgreen;">
+        <h2> INI CONTOH KONTEN ARTICLE BAGIAN 2 </h2>
+        <img src="images/logo1.png" title="Logo Lupanalogx">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium dolorum facere magni accusamus! Quidem, facere aliquam iste minima, sapiente autem, quasi ab deleniti cum alias earum culpa consectetur architecto!
+        </p>
+    </article>
+    <article style="background-color: wheat;">
+        <h2> INI CONTOH KONTEN ARTICLE BAGIAN 3 </h2>
+        <img src="images/logo1.png" title="Logo Lupanalogx">
+        <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium dolorum facere magni accusamus! Quidem, facere aliquam iste minima, sapiente autem, quasi ab deleniti cum alias earum culpa consectetur architecto!
+        </p>
+    </article>
+
+<!------------------------------------------------ LATIHAN MEMBUAT ASIDE ------------------------------------------------>
+
+<!-- Elemen <aside> memiliki dua tujuan, tergantung kita menempatkannya di dalam sebuah elemen <article> atau tidak.-->
+<!-- Ketika elemen ini ditempatkan di dalam elemen <article>, pada elemen ini dapat berisikan informasi yang berhubungan dengan artikel tersebut, tetapi bukan bagian dari konten artikelnya itu sendiri (dipisahkan dari konten utama). --> 
+<!-- Ketika elemen ini ditempatkan di luar dari elemen <article>, pada elemen ini dapat berisikan informasi yang berhubungan pada keseluruhan halaman.-->
+<!-- Elemen <aside> biasanya terletak di samping dari sebuah elemen yang menampungnya. --> 
+    <hr>
+    <p>
+        <b> Latihan membuat Aside : </b>
+    </p>
+    <main style="background-color: wheat;">
+        <article>
+           <h1> INI KONTEN ARTICLE BAGIAN 1 BERADA DI DALAM MAIN </h1>
+           <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum molestiae voluptatum cumque hic? Voluptates officiis, totam autem ratione vero illo aliquam ab a at esse distinctio nihil quae dicta expedita?
+           </p>
+        </article>
+        <aside>
+            <article>
+                <header>
+                    <h2> INI KONTEN ARTICLE BAGIAN 2 BERADA DI DALAM MAIN, ASIDE, MENGGUNAKAN HEADER </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem architecto, repellendus tempora placeat ea ipsam vel quia quae cum magnam odit dolores provident voluptatem alias, dolor cumque perspiciatis animi tempore?
+                    </p>
+                    <figure>
+                        <img src="images/logo1.png" title=" Logo Lupanalogx ">
+                        <figcaption> Logo Lupanalogx </figcaption>
+                    </figure>
+                </header>
+            </article>
+        </aside>
+     </main>
+
+<!------------------------------------------------- LATIHAN MEMBUAT SECTION --------------------------------------------->
+
+<!-- Sebuah elemen yang memiliki kesamaan konten dan memiliki sebuah heading di dalamnya dapat dikelompokkan dengan menggunakan elemen <section>. Dengan begitu elemen ini dapat digunakan pada sebuah elemen <article> yang memiliki konten panjang dan berpotensi untuk dikelompokkan. -->
+<!-- Di dalam sebuah <section> sebaiknya terdapat elemen heading (h1 - h6), yang menjadi elemen pertama yang dituliskan pada sebuah section untuk menunjukkan judul atau tema dari bagian konten yang dikelompokkan.-->    
+    <hr>
+    <p>
+        <b> Latihan membuat Section : </b>
+    </p>
+    <article style="background-color: tomato;">
+        <section>
+            <h2 > INI ADALAH KONTEN SECTION BAGIAN 1 DI DALAM ARTICLE</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta inventore nihil ipsum veritatis. Ratione vitae delectus corrupti nam molestias optio consequatur minima. Cupiditate harum architecto saepe ab a sunt accusantium.
+            </p>
+        </section>
+        <section>
+            <h3>INI ADALAH KONTEN SECTION BAGIAN 2 DI DALAM ARTICLE</h3>
+            <img src="images/logo1.png" title="Farm House Lembang">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quos, voluptatum sit dolor quam accusantium saepe eligendi dolorem quae culpa aspernatur totam dignissimos sunt iusto praesentium, vel blanditiis maxime deserunt.
+            </p>
+        </section>
+        <section>
+            <h3>INI ADALAH KONTEN SECTION BAGIAN 3 DI DALAM ARTICLE</h3>
+            <img src="images/logo1.png" title=" Observatorium Bosscha">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident accusantium pariatur doloribus est unde esse eaque ut quaerat, consequuntur mollitia, earum ducimus asperiores? Suscipit dicta rerum maiores sapiente illum natus.
+            </p>
+        </section>
+    </article>
+
+<!--------------------------------------------------- LATIHAN MEMBUAT DIV ----------------------------------------------->
+
+<!-- yang pertama elemen <div>, elemen ini merupakan sebuah wadah (container) yang bersifat umum untuk menampung beberapa konten. Elemen ini tidak akan memberikan efek apapun pada konten atau layout sebelum menerapkan sebuah style menggunakan CSS. -->
+<!-- Sebagai sebuah wadah yang murni, elemen <div> tidak merepresentasikan apapun. Elemen ini lebih sering digunakan untuk mengelompokkan sebuah konten sehingga dapat memudahkan styling dengan menggunakan atribut class atau id. -->
+    <hr>
+    <p>
+        <b> Latihan membuat DIV :</b>
+    </p>    
+    <div class="shadowbox">
+        <p>
+            Paragraf ini berada di dalam elemen div, namun akan ditampilkan sama seperti paragraf biasanya. Elemen ini lebih sering digunakan untuk mengelompokkan sebuah konten sehingga dapat memudahkan styling dengan menggunakan atribut class atau id.
+        </p>
+    </div>
+    <br>
+<!-------------------------------------------------- LATIHAN MEMBUAT SPAN ----------------------------------------------->
+
+<!-- Yang kedua elemen <span>, elemen ini memberikan manfaat yang sama seperti <div>, bedanya elemen ini digunakan sebagai phrase elements dan tidak terdapat line breaks ketika menggunakannya. Sederhananya, <span> merupakan sebuah <div> yang digunakan dalam sebuah baris teks yang dapat diwadahi oleh paragraf, list, heading atau lainnya.-->
+<!-- Mari kita ambil contoh. Tidak ada elemen pada inline element yang memiliki arti untuk menampung sebuah informasi telepon. Maka dari itu, tiap item pada nomor telepon bisa ditampung dalam elemen <span> dan diklasifikasikan (menggunakan atribut class) dengan nilai “phone”. -->    
+    <hr>
+    <p>
+        <b> Latihan membuat Span : </b>
+    </p>
+    <ul>
+        <li>Agil: <span class="phone">08123xxx</span></li> <!-- ini untuk memberi warna pada list -->
+        <li>Widy: <span class="phone">08222xxx</span></li>
+        <li>Gilang: <span class="phone">08333xxx</span></li>
+     </ul>
+     <p>
+        Untuk membuat sebuah bakso kita membutuhkan <span class="contoh1">daging sapi</span>, 
+        <span class="contoh2">tepung tapioka</span>, <span class="contoh3">bawang merah</span> dan
+        <span class="contoh4">bawang putih</span> kemudian satu sendok makan <span class="contoh5">gula</span> dan <span class="contoh6">garam.</span> <!-- ini untuk memberi warna pada paragraf -->
+     </p>
+</body>
+</html>
